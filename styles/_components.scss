@@ -24,47 +24,46 @@
     }
 
     &__card--grey {
-        background-color: rgb(193, 192, 205);
+        background-color: $color-grey;
     }
 
     &__card--yellow {
-        background-color: rgb(230, 213, 31);
+        background-color: $color-yellow;
     }
 
     &__card--pink {
-        background-color: rgb(232, 185, 212);
+        background-color: $color-pink;
     }
 
     &__card--light-green {
-        background-color: rgb(185, 232, 183);
+        background-color: $color-light-green;
     }
 
     &__card--green {
-        background-color: rgb(64, 204, 114);
+        background-color: $color-green;
     }
 
     &__card--red {
-        background-color: rgb(203, 66, 70);
+        background-color: $color-red;
     }
 
     &__card--brown {
-        background-color: rgb(231, 170, 114);
+        background-color: $color-brown;
     }
 
     &__card--blue {
-        background-color: rgb(78, 186, 231);
-        //font-family: 'Cronus Round Regular';
+        background-color: $color-blue;
     }
 
     &__card--light-grey {
-        background-color: rgb(184, 231, 233);
+        background-color: $color-light-grey;
     }
 
     &__card--dark-grey {
-        background-color: rgb(176, 177, 180);
+        background-color: $color-dark-grey;
     }
 
     &__card--dark-green {
-        background-color: rgb(150, 204, 66);
+        background-color: $color-dark-green;
     }
 }
