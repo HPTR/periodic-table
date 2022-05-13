@@ -4,7 +4,7 @@
 
 This was a challenge set by the coaches at _nology. It was designed to include the use of HTML, CSS, and other areas of learning up to this point.
 
-The challenge was to recreate this periodic:
+The challenge was to recreate this periodic table:
 
 ![Challenge Image](./images/challenge.png)
 
