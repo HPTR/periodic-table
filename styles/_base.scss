@@ -12,8 +12,13 @@ $color-light-grey: rgb(184, 231, 233);
 $color-dark-grey: rgb(176, 177, 180);
 $color-dark-green: rgb(150, 204, 66);
 
+// Mixins
 
-// $font:
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 // Font Import
 
