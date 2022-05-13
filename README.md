@@ -11,3 +11,7 @@ The challenge was to recreate this periodic table:
 I opted to use a grid which seemed like the most intuitive approach. We were instructed to use the BEM convention in combination with SASS to make styling and readability as easy to read as possible.
 
 In future iterations I plan to add some responsiveness to the design to allow the table to fit on to as many different screen sizes as possible, as currently it only fits comfortably on large displays.
+
+You can visit the GitHub Pages site here:
+
+https://hptr.github.io/periodic-table/
