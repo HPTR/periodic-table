@@ -1,0 +1,572 @@
+@import url("http://fonts.cdnfonts.com/css/phenomena");
+.periodic-table__card {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 11%;
+  font-size: 2.2em;
+  border-radius: 5px;
+  position: relative;
+}
+.periodic-table__number {
+  display: inline;
+  font-size: 0.5em;
+  position: absolute;
+  left: 5%;
+  bottom: 2%;
+}
+.periodic-table__card--grey {
+  background-color: rgb(193, 192, 205);
+}
+.periodic-table__card--yellow {
+  background-color: rgb(230, 213, 31);
+}
+.periodic-table__card--pink {
+  background-color: rgb(232, 185, 212);
+}
+.periodic-table__card--light-green {
+  background-color: rgb(185, 232, 183);
+}
+.periodic-table__card--green {
+  background-color: rgb(64, 204, 114);
+}
+.periodic-table__card--red {
+  background-color: rgb(203, 66, 70);
+}
+.periodic-table__card--brown {
+  background-color: rgb(231, 170, 114);
+}
+.periodic-table__card--blue {
+  background-color: rgb(78, 186, 231);
+}
+.periodic-table__card--light-grey {
+  background-color: rgb(184, 231, 233);
+}
+.periodic-table__card--dark-grey {
+  background-color: rgb(176, 177, 180);
+}
+.periodic-table__card--dark-green {
+  background-color: rgb(150, 204, 66);
+}
+
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, 80px) [card-18];
+  grid-template-rows: repeat(9, 80px);
+  gap: 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "card-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 card-2" "card-3 card-4 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 card-5 card-6 card-7 card-8 card-9 card-10" "card-11 card-12 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 card-13 card-14 card-15 card-16 card-17 card-18" "card-19 card-20 card-21 card-22 card-23 card-24 card-25 card-26 card-27 card-28 card-29 card-30 card-31 card-32 card-33 card-34 card-35 card-36" "card-37 card-38 card-39 card-40 card-41 card-42 card-43 card-44 card-45 card-46 card-47 card-48 card-49 card-50 card-51 card-52 card-53 card-54" "card-55 card-56 card-57 card-72 card-73 card-74 card-75 card-76 card-77 card-78 card-79 card-80 card-81 card-82 card-83 card-84 card-85 card-86" "card-87 card-88 card-89 card-104 card-105 card-106 card-107 card-108 card-109 card-110 card-111 card-112 card-113 card-114 card-115 card-116 card-117 card-118" "blank-3 blank-3 blank-3 card-58 card-59 card-60 card-61 card-62 card-63 card-64 card-65 card-66 card-67 card-68 card-69 card-70 card-71 blank-4" "blank-3 blank-3 blank-3 card-90 card-91 card-92 card-93 card-94 card-95 card-96 card-97 card-98 card-99 card-100 card-101 card-102 card-103 blank-4";
+}
+
+.blank-1 {
+  grid-area: blank-1;
+}
+
+.blank-2 {
+  grid-area: blank-2;
+}
+
+.blank-3 {
+  grid-area: blank-3;
+}
+
+.blank-4 {
+  grid-area: blank-4;
+}
+
+.card-1 {
+  grid-area: card-1;
+}
+
+.card-2 {
+  grid-area: card-2;
+}
+
+.card-3 {
+  grid-area: card-3;
+}
+
+.card-4 {
+  grid-area: card-4;
+}
+
+.card-5 {
+  grid-area: card-5;
+}
+
+.card-6 {
+  grid-area: card-6;
+}
+
+.card-7 {
+  grid-area: card-7;
+}
+
+.card-8 {
+  grid-area: card-8;
+}
+
+.card-9 {
+  grid-area: card-9;
+}
+
+.card-10 {
+  grid-area: card-10;
+}
+
+.card-11 {
+  grid-area: card-11;
+}
+
+.card-12 {
+  grid-area: card-12;
+}
+
+.card-13 {
+  grid-area: card-13;
+}
+
+.card-14 {
+  grid-area: card-14;
+}
+
+.card-15 {
+  grid-area: card-15;
+}
+
+.card-16 {
+  grid-area: card-16;
+}
+
+.card-17 {
+  grid-area: card-17;
+}
+
+.card-18 {
+  grid-area: card-18;
+}
+
+.card-19 {
+  grid-area: card-19;
+}
+
+.card-20 {
+  grid-area: card-20;
+}
+
+.card-21 {
+  grid-area: card-21;
+}
+
+.card-22 {
+  grid-area: card-22;
+}
+
+.card-23 {
+  grid-area: card-23;
+}
+
+.card-24 {
+  grid-area: card-24;
+}
+
+.card-25 {
+  grid-area: card-25;
+}
+
+.card-26 {
+  grid-area: card-26;
+}
+
+.card-27 {
+  grid-area: card-27;
+}
+
+.card-28 {
+  grid-area: card-28;
+}
+
+.card-29 {
+  grid-area: card-29;
+}
+
+.card-30 {
+  grid-area: card-30;
+}
+
+.card-31 {
+  grid-area: card-31;
+}
+
+.card-32 {
+  grid-area: card-32;
+}
+
+.card-33 {
+  grid-area: card-33;
+}
+
+.card-34 {
+  grid-area: card-34;
+}
+
+.card-35 {
+  grid-area: card-35;
+}
+
+.card-36 {
+  grid-area: card-36;
+}
+
+.card-37 {
+  grid-area: card-37;
+}
+
+.card-38 {
+  grid-area: card-38;
+}
+
+.card-39 {
+  grid-area: card-39;
+}
+
+.card-40 {
+  grid-area: card-40;
+}
+
+.card-41 {
+  grid-area: card-41;
+}
+
+.card-42 {
+  grid-area: card-42;
+}
+
+.card-43 {
+  grid-area: card-43;
+}
+
+.card-44 {
+  grid-area: card-44;
+}
+
+.card-45 {
+  grid-area: card-45;
+}
+
+.card-46 {
+  grid-area: card-46;
+}
+
+.card-47 {
+  grid-area: card-47;
+}
+
+.card-48 {
+  grid-area: card-48;
+}
+
+.card-49 {
+  grid-area: card-49;
+}
+
+.card-50 {
+  grid-area: card-50;
+}
+
+.card-51 {
+  grid-area: card-51;
+}
+
+.card-52 {
+  grid-area: card-52;
+}
+
+.card-53 {
+  grid-area: card-53;
+}
+
+.card-54 {
+  grid-area: card-54;
+}
+
+.card-55 {
+  grid-area: card-55;
+}
+
+.card-56 {
+  grid-area: card-56;
+}
+
+.card-57 {
+  grid-area: card-57;
+}
+
+.card-72 {
+  grid-area: card-72;
+}
+
+.card-73 {
+  grid-area: card-73;
+}
+
+.card-74 {
+  grid-area: card-74;
+}
+
+.card-75 {
+  grid-area: card-75;
+}
+
+.card-76 {
+  grid-area: card-76;
+}
+
+.card-77 {
+  grid-area: card-77;
+}
+
+.card-78 {
+  grid-area: card-78;
+}
+
+.card-79 {
+  grid-area: card-79;
+}
+
+.card-80 {
+  grid-area: card-80;
+}
+
+.card-81 {
+  grid-area: card-81;
+}
+
+.card-82 {
+  grid-area: card-82;
+}
+
+.card-83 {
+  grid-area: card-83;
+}
+
+.card-84 {
+  grid-area: card-84;
+}
+
+.card-85 {
+  grid-area: card-85;
+}
+
+.card-86 {
+  grid-area: card-86;
+}
+
+.card-87 {
+  grid-area: card-87;
+}
+
+.card-88 {
+  grid-area: card-88;
+}
+
+.card-89 {
+  grid-area: card-89;
+}
+
+.card-104 {
+  grid-area: card-104;
+}
+
+.card-105 {
+  grid-area: card-105;
+}
+
+.card-106 {
+  grid-area: card-106;
+}
+
+.card-107 {
+  grid-area: card-107;
+}
+
+.card-108 {
+  grid-area: card-108;
+}
+
+.card-109 {
+  grid-area: card-109;
+}
+
+.card-110 {
+  grid-area: card-110;
+}
+
+.card-111 {
+  grid-area: card-111;
+}
+
+.card-112 {
+  grid-area: card-112;
+}
+
+.card-113 {
+  grid-area: card-113;
+}
+
+.card-114 {
+  grid-area: card-114;
+}
+
+.card-115 {
+  grid-area: card-115;
+}
+
+.card-116 {
+  grid-area: card-116;
+}
+
+.card-117 {
+  grid-area: card-117;
+}
+
+.card-118 {
+  grid-area: card-118;
+}
+
+.card-58 {
+  grid-area: card-58;
+}
+
+.card-59 {
+  grid-area: card-59;
+}
+
+.card-60 {
+  grid-area: card-60;
+}
+
+.card-61 {
+  grid-area: card-61;
+}
+
+.card-62 {
+  grid-area: card-62;
+}
+
+.card-63 {
+  grid-area: card-63;
+}
+
+.card-64 {
+  grid-area: card-64;
+}
+
+.card-65 {
+  grid-area: card-65;
+}
+
+.card-66 {
+  grid-area: card-66;
+}
+
+.card-67 {
+  grid-area: card-67;
+}
+
+.card-68 {
+  grid-area: card-68;
+}
+
+.card-69 {
+  grid-area: card-69;
+}
+
+.card-70 {
+  grid-area: card-70;
+}
+
+.card-71 {
+  grid-area: card-71;
+}
+
+.card-90 {
+  grid-area: card-90;
+}
+
+.card-91 {
+  grid-area: card-91;
+}
+
+.card-92 {
+  grid-area: card-92;
+}
+
+.card-93 {
+  grid-area: card-93;
+}
+
+.card-94 {
+  grid-area: card-94;
+}
+
+.card-95 {
+  grid-area: card-95;
+}
+
+.card-96 {
+  grid-area: card-96;
+}
+
+.card-97 {
+  grid-area: card-97;
+}
+
+.card-98 {
+  grid-area: card-98;
+}
+
+.card-99 {
+  grid-area: card-99;
+}
+
+.card-100 {
+  grid-area: card-100;
+}
+
+.card-101 {
+  grid-area: card-101;
+}
+
+.card-102 {
+  grid-area: card-102;
+}
+
+.card-103 {
+  grid-area: card-103;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Phenomena", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+body h1 {
+  font-size: 3em;
+  margin: 10px;
+}/*# sourceMappingURL=main.css.map */
