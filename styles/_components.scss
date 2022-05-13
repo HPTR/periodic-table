@@ -1,0 +1,70 @@
+// Cards
+
+.periodic-table {
+    &__card {
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-decoration-style: dotted;
+        text-decoration-line: underline;
+        text-decoration-thickness: 11%;
+        font-size: 2.2em;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    &__number {
+        display: inline;
+        font-size: 0.5em;
+        position: absolute;
+        left: 5%;
+        bottom: 2%;
+    }
+
+    &__card--grey {
+        background-color: rgb(193, 192, 205);
+    }
+
+    &__card--yellow {
+        background-color: rgb(230, 213, 31);
+    }
+
+    &__card--pink {
+        background-color: rgb(232, 185, 212);
+    }
+
+    &__card--light-green {
+        background-color: rgb(185, 232, 183);
+    }
+
+    &__card--green {
+        background-color: rgb(64, 204, 114);
+    }
+
+    &__card--red {
+        background-color: rgb(203, 66, 70);
+    }
+
+    &__card--brown {
+        background-color: rgb(231, 170, 114);
+    }
+
+    &__card--blue {
+        background-color: rgb(78, 186, 231);
+        //font-family: 'Cronus Round Regular';
+    }
+
+    &__card--light-grey {
+        background-color: rgb(184, 231, 233);
+    }
+
+    &__card--dark-grey {
+        background-color: rgb(176, 177, 180);
+    }
+
+    &__card--dark-green {
+        background-color: rgb(150, 204, 66);
+    }
+}
