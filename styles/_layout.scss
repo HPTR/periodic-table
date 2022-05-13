@@ -1,7 +1,11 @@
+@use "./base" as *;
+
 body {
     @include flexCenter();
     flex-direction: column;
     font-family: 'Phenomena', sans-serif;
+    background-color: $color-black;
+    color: white;
 
     h1 {
         font-size: 3em;
