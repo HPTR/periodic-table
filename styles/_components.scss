@@ -2,21 +2,18 @@
 
 .periodic-table {
     &__card {
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexCenter();
         flex-direction: column;
-        text-decoration-style: dotted;
-        text-decoration-line: underline;
-        text-decoration-thickness: 11%;
         font-size: 2.2em;
+        font-weight: bold;
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+        text-decoration-thickness: 11%;
         border-radius: 5px;
         position: relative;
     }
 
     &__number {
-        display: inline;
         font-size: 0.5em;
         position: absolute;
         left: 5%;
