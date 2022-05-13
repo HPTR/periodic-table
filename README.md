@@ -6,7 +6,7 @@ This was a challenge set by the coaches at _nology. It was designed to include t
 
 The challenge was to recreate this periodic:
 
-- img link
+![Challenge Image](./images/challenge.png)
 
 I opted to use a grid which seemed like the most intuitive approach. We were instructed to use the BEM convention in combination with SASS to make styling and readability as easy to read as possible.
 
