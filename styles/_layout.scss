@@ -5,10 +5,10 @@ body {
     flex-direction: column;
     font-family: 'Phenomena', sans-serif;
     background-color: $color-black;
-    color: white;
-
+    
     h1 {
         font-size: 3em;
         margin: 10px;
+        color: white;
     }
 }
